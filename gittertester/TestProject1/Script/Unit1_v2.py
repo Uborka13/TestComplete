@@ -31,3 +31,9 @@ def Test1():
   tcxRadioButton.ClickButton()
   tcxGroupBox.RadioButton_UgyfelNev.ClickButton()
   tcxGroupBox.RadioButton_LoginName.ClickButton()
+
+def Test2():
+  tcxGroupBox = Aliases.EKAER_uszi.TraconMainForm.cxGroupBoxSearch
+  tcxGroupBox.RadioButton_Rendszam.ClickButton()
+  tcxGroupBox.RadioButton_VatNumber.ClickButton()
+  tcxGroupBox.RadioButton_Folyoszamla.ClickButton()
