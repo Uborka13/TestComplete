@@ -1,31 +1,7 @@
-﻿##Sort szúrtam be
+﻿def Func():
+  print(sum(x for x in range(1000))
+  
 
-######x
-# viasdfiii
+print(Func())
 
-print(sum(x for x in range(1000) if x % 3 or x % 5))
-
-
-##LOFASZ
-#Ne
-
-##
-
-#xx
-#x
-
-#aslkdjf
-##IS
-##VALAMSE
-#Valamske
-##es
-
-##
-##
-##
-##
-##
-###VÉGE
-##
-###VAN
-
+Select lofasz
