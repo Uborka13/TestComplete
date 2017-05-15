@@ -13,6 +13,9 @@
 		<child name="TestedApps" key="{7764138C-0CF0-49E5-B626-8E96BCF929BC}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="">
 			<data path="TestedApps\TestedApps.tcTAs" />
 		</child>
+		<child name="NameMapping" key="{026A4108-6BAD-4724-A5AA-2EE61EF08412}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping">
+			<data path="NameMapping\NameMapping.tcNM" />
+		</child>
 	</children>
 	<folders>
 		<folder caption="Advanced" description="A logical folder that is used to organize project items and elements." moniker="{69583268-92F3-49FA-B573-C831F5ABC27B}">
@@ -96,7 +99,7 @@
 		<setting name="{3FC03B2F-1B76-433D-86AE-20B18B2CA600}" type="1" value="True" />
 		<setting name="{A4D0B1B0-14DA-4AFA-8AFC-E82D0400E7E9}" type="1" value="True" />
 		<setting name="CountProcessesOfAllUsers" type="1" value="True" />
-		<setting name="{949057FA-CBDC-4A23-BB7F-9A25DCAE8729}" type="6" rowIndex="1" colIndex="0">
+		<setting name="{949057FA-CBDC-4A23-BB7F-9A25DCAE8729}" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>
@@ -116,7 +119,7 @@
 		</setting>
 		<setting name="{0DEF6033-13D4-4335-97E9-CC6F1FC04342}" type="1" value="True" />
 		<setting name="{DF56DCEA-130B-4D36-8893-5FDC090AFB17}" type="1" value="False" />
-		<setting name="CLRBridge_SelectedComponents" type="6" rowIndex="-1" colIndex="1">
+		<setting name="CLRBridge_SelectedComponents" type="6" rowIndex="-1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="1" enabled="True" />
@@ -350,7 +353,7 @@
 		</setting>
 		<setting name="{D80391D4-892F-4CEC-865E-B7FACB3FAC84}" type="2" value="10" />
 		<setting name="MouseMovementDelay" type="2" value="0" />
-		<setting name="{A383BA1A-68CF-40AE-9FCD-B3E554E9ADD7}" type="6" rowIndex="1" colIndex="0">
+		<setting name="{A383BA1A-68CF-40AE-9FCD-B3E554E9ADD7}" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
 			</columns>

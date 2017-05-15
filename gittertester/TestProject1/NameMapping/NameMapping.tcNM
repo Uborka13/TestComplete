@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="5">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{F50EA4E2-8EB8-44C6-88DE-429128109F98}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="EKAER_uszi" Key="{0AB30450-D205-433F-AD51-86662FF24502}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="EKAER_uszi" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="TraconMainForm" Key="{84689268-B21F-4FE7-BDDD-289A9566A8C0}" ParallelWalk="True">
+								<Properties>
+									<Property Name="ClassName">
+										<Value PropertyType="0" Value="TTraconMainForm" Type="5" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value PropertyType="0" Value="TraconMainForm" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cxGroupBoxSearch" Key="{6062F76A-3517-4082-8DDA-75D032C569DD}" ParallelWalk="True">
+										<Properties>
+											<Property Name="ClassName">
+												<Value PropertyType="0" Value="TcxGroupBox" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="cxGroupBoxSearch" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="RadioButton_UgyfelAzonosito" Key="{F28CFC69-2CE0-4F4D-9F8A-F36FE3ECBB2D}" ParallelWalk="True">
+												<TypeInfo Item0="{04F9BADB-B2CA-41E0-AFA3-47DE34418E58}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="TcxRadioButton" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="RadioButton_UgyfelAzonosito" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="RadioButton_UgyfelNev" Key="{84017952-A669-4943-BD83-1A5F7655B267}" ParallelWalk="True">
+												<TypeInfo Item0="{04F9BADB-B2CA-41E0-AFA3-47DE34418E58}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="TcxRadioButton" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="RadioButton_UgyfelNev" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="RadioButton_LoginName" Key="{C8A8DF07-2ED1-43DC-A44C-59C16F382EC6}" ParallelWalk="True">
+												<TypeInfo Item0="{04F9BADB-B2CA-41E0-AFA3-47DE34418E58}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="TcxRadioButton" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="RadioButton_LoginName" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="EKAER_uszi" Owner="{0AB30450-D205-433F-AD51-86662FF24502}">
+			<Child Name="TraconMainForm" Owner="{84689268-B21F-4FE7-BDDD-289A9566A8C0}">
+				<Child Name="cxGroupBoxSearch" Owner="{6062F76A-3517-4082-8DDA-75D032C569DD}">
+					<Child Name="RadioButton_UgyfelAzonosito" Owner="{F28CFC69-2CE0-4F4D-9F8A-F36FE3ECBB2D}" />
+					<Child Name="RadioButton_UgyfelNev" Owner="{84017952-A669-4943-BD83-1A5F7655B267}" />
+					<Child Name="RadioButton_LoginName" Owner="{C8A8DF07-2ED1-43DC-A44C-59C16F382EC6}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+	<TypeInfo StoreCodeCompletion="1">
+		<Child Hash="-1179166240" Key="{04F9BADB-B2CA-41E0-AFA3-47DE34418E58}">
+			<Data Properties="5D0D4GF990BE44BB2FE1FD43396B139UFFFFFFFFFFFFFFFFV4LAZZY">
+				<FunctionDescriptions>
+					<Child Name="ClickButton" Doc="Moves the mouse cursor to the radio button and then simulates a single click, thus selecting it." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="wChecked" Doc="Returns True if the radio button is selected, else False." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+	</TypeInfo>
+</Root>
