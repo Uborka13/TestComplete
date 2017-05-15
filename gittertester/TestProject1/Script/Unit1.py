@@ -5,8 +5,9 @@
 
 ##LOFASZ
 #NAK
-##I2
-#Valamicske
+##IS
+##VALAMSE
+#Valamske
 ###VÉGE
 ##
 ###VAN
