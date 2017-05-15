@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Unit1" key="{08B6E89F-C1FA-4BF1-8EDD-FC2384991C27}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
-			<data path="Unit1.py" />
+		<child name="Unit1_v2" key="{08B6E89F-C1FA-4BF1-8EDD-FC2384991C27}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Unit1_v2.py" />
 		</child>
 	</children>
 	<folders />
