@@ -12,7 +12,13 @@
 		</children>
 	</testItems>
 	<variables key="{39FE1695-F169-4B17-A016-F4095B732E78}">
-		<data Version="3" />
+		<data Version="3">
+			<Items>
+				<Variable Name="alma" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False" Descr="kecske is good">
+					<DefValue StrValue="6B006500630073006B006500" />
+				</Variable>
+			</Items>
+		</data>
 	</variables>
 	<analysis key="{3A42BCBE-8D8D-45AC-9544-6FC7B2EFE956}" />
 	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
