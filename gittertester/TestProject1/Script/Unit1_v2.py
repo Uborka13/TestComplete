@@ -23,3 +23,11 @@ def steven():
 
 def vara():
   return 'yolooo'
+
+def Test1():
+  tcxGroupBox = Aliases.EKAER_uszi.TraconMainForm.cxGroupBoxSearch
+  tcxRadioButton = tcxGroupBox.RadioButton_UgyfelAzonosito
+  tcxRadioButton.ClickButton()
+  tcxRadioButton.ClickButton()
+  tcxGroupBox.RadioButton_UgyfelNev.ClickButton()
+  tcxGroupBox.RadioButton_LoginName.ClickButton()
