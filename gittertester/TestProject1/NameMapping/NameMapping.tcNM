@@ -72,6 +72,39 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="RadioButton_Rendszam" Key="{05C4C1C8-03B5-485F-B425-BE21C22A5765}" ParallelWalk="True">
+												<TypeInfo Item0="{04F9BADB-B2CA-41E0-AFA3-47DE34418E58}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="TcxRadioButton" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="RadioButton_Rendszam" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="RadioButton_VatNumber" Key="{9A18419A-DA53-4A5F-A9BE-7319BEB099DB}" ParallelWalk="True">
+												<TypeInfo Item0="{04F9BADB-B2CA-41E0-AFA3-47DE34418E58}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="TcxRadioButton" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="RadioButton_VatNumber" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="RadioButton_Folyoszamla" Key="{DEDCB391-F4AE-46EE-82D9-93C83EF2DE65}" ParallelWalk="True">
+												<TypeInfo Item0="{04F9BADB-B2CA-41E0-AFA3-47DE34418E58}" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="TcxRadioButton" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="RadioButton_Folyoszamla" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 								</Children>
@@ -89,6 +122,9 @@
 					<Child Name="RadioButton_UgyfelAzonosito" Owner="{F28CFC69-2CE0-4F4D-9F8A-F36FE3ECBB2D}" />
 					<Child Name="RadioButton_UgyfelNev" Owner="{84017952-A669-4943-BD83-1A5F7655B267}" />
 					<Child Name="RadioButton_LoginName" Owner="{C8A8DF07-2ED1-43DC-A44C-59C16F382EC6}" />
+					<Child Name="RadioButton_Rendszam" Owner="{05C4C1C8-03B5-485F-B425-BE21C22A5765}" />
+					<Child Name="RadioButton_VatNumber" Owner="{9A18419A-DA53-4A5F-A9BE-7319BEB099DB}" />
+					<Child Name="RadioButton_Folyoszamla" Owner="{DEDCB391-F4AE-46EE-82D9-93C83EF2DE65}" />
 				</Child>
 			</Child>
 		</Child>
