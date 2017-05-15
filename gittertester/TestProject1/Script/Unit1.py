@@ -6,7 +6,9 @@
 ##LOFASZ
 #NAK
 ##IS
-##VALAMIT
+##VALAMSE
+##I5
+#Valamske
 ###VÉGE
 ##
 ###VAN
