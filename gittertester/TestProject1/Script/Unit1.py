@@ -6,6 +6,7 @@
 ##LOFASZ
 #NAK
 ##IS
+##VALAMIT
 ###VÉGE
 ##
 ###VAN
