@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1140" key="{7764138C-0CF0-49E5-B626-8E96BCF929BC}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{C92D18A2-59A3-4B93-A91A-36043C7D1839}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+			<config nodeName="EKAER_uszi" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="-noupdate" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="-noupdate" workFolder="" />
+					<param name="Debug" parameters="-noupdate" workFolder="" />
+					<param name="Simple" fileName="EKAER_uszi.exe" filePath="C:\Users\david.urban\Documents\EKÁER\1.10 Comm\" parameters="-noupdate" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+	<folders />
+</Root>
