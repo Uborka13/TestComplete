@@ -1,4 +1,5 @@
 ﻿import math
+import this
 
 def Func():
   print(sum(x for x in range(1000)))
@@ -17,15 +18,8 @@ def valami_function2():
   love is True
   return not love
 
-
-
-def change_love():
-  love = False
-  False is False
-  True is True
-  love is True
-  False is love
-
 def steven():
   print("nyehehe")
 
+def vara():
+  return 'yolooo'
