@@ -7,8 +7,13 @@
 		<child name="Faszzt" key="{359AF288-B504-4350-9D77-8B172FCC2261}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Faszzt.py" />
 		</child>
+<<<<<<< HEAD
 		<child name="calcer" key="{8B21C720-3C47-4D54-B1F4-856441ADF0C7}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="calcer.py" />
+=======
+		<child name="sanyiii" key="{8326EB22-9436-48FE-9D17-213E3626380B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="sanyiii.py" />
+>>>>>>> 9762556a3eef6bcc0ec0261248e7212064ea7cf0
 		</child>
 	</children>
 	<folders />

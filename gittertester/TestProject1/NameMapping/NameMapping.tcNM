@@ -111,6 +111,574 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="ApplicationFrameHost" Key="{CF114507-053B-4F8A-8CA8-0C1645B4A565}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="ApplicationFrameHost" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndSz_mol_g_p" Key="{B645F688-0810-44BB-B6C0-4AF69C9CD621}" ParallelWalk="True">
+								<TypeInfo Item0="{063F2CB9-5532-448F-B5EE-ED5C3A8B59AE}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="ApplicationFrameWindow" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="Számológép" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Sz_mol_g_p" Key="{D5FF381A-5A13-430F-8EED-ED88D21718C6}" ParallelWalk="True">
+										<Properties>
+											<Property Name="FrameworkId">
+												<Value PropertyType="0" Value="XAML" Type="5" />
+											</Property>
+											<Property Name="ClassName">
+												<Value PropertyType="0" Value="Windows.UI.Core.CoreWindow" Type="5" />
+											</Property>
+											<Property Name="LocalizedControlType">
+												<Value PropertyType="0" Value="ablak" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="Számológép" Type="5" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="NumberPad" Key="{10C4B6B3-0446-4C20-9B0A-29DCF11E9ADF}" ParallelWalk="True">
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value PropertyType="0" Value="XAML" Type="5" />
+													</Property>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="LandmarkTarget" Type="5" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value PropertyType="0" Value="csoport" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="NumberPad" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Egy" Key="{F7212CD6-536B-476B-85B4-972A8A03EA6A}" ParallelWalk="True">
+														<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="gomb" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Egy" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Kett_" Key="{414B6284-DE15-4CE6-8ECE-75D9A2FF7840}" ParallelWalk="True">
+														<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="gomb" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Kettő" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TextBlock" Key="{91B23EEE-7613-4043-B870-A589DBB4F766}" ParallelWalk="True">
+																<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value PropertyType="0" Value="XAML" Type="5" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="TextBlock" Type="5" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value PropertyType="0" Value="szöveg" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="TextBlock" Type="5" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value PropertyType="0" Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="H_rom" Key="{C2826288-2104-4480-BC6D-F33AE7C33D75}" ParallelWalk="True">
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="gomb" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Három" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TextBlock" Key="{41BACEFD-4650-4ED7-A643-01EBE38D9180}" ParallelWalk="True">
+																<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value PropertyType="0" Value="XAML" Type="5" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="TextBlock" Type="5" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value PropertyType="0" Value="szöveg" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="TextBlock" Type="5" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value PropertyType="0" Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="N_gy" Key="{B1C529A0-6831-48D7-8F68-42AD6E5BC0F9}" ParallelWalk="True">
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="gomb" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Négy" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TextBlock" Key="{646C38AB-B2D3-4DCB-9419-EDF3FED0ECA6}" ParallelWalk="True">
+																<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value PropertyType="0" Value="XAML" Type="5" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="TextBlock" Type="5" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value PropertyType="0" Value="szöveg" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="TextBlock" Type="5" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value PropertyType="0" Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="t" Key="{F865C5EF-64A3-48B4-A60D-3B7467639585}" ParallelWalk="True">
+														<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="gomb" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Öt" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Hat" Key="{B0E50102-7D43-42DC-B212-8A54D7E9FCF7}" ParallelWalk="True">
+														<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="gomb" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Hat" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="H_t" Key="{FDFA9A26-060C-4A21-AD07-7755D8BA9020}" ParallelWalk="True">
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="gomb" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Hét" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TextBlock" Key="{5E284836-4DCB-4E97-8ECF-8B8882D876E0}" ParallelWalk="True">
+																<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value PropertyType="0" Value="XAML" Type="5" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="TextBlock" Type="5" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value PropertyType="0" Value="szöveg" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="TextBlock" Type="5" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value PropertyType="0" Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="Nyolc" Key="{C70803CF-D55B-4B09-A32C-1835F0B09F50}" ParallelWalk="True">
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="gomb" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Nyolc" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TextBlock" Key="{2719AE9C-A459-45B0-9B55-BCE5F035F1AD}" ParallelWalk="True">
+																<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value PropertyType="0" Value="XAML" Type="5" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="TextBlock" Type="5" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value PropertyType="0" Value="szöveg" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="TextBlock" Type="5" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value PropertyType="0" Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="Kilenc" Key="{47C35468-E794-4C12-995A-5DFFBE97A6A4}" ParallelWalk="True">
+														<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="gomb" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Kilenc" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="StandardOperators" Key="{7C9E0F76-AECF-4D13-8257-205EA00166CC}" ParallelWalk="True">
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value PropertyType="0" Value="XAML" Type="5" />
+													</Property>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="LandmarkTarget" Type="5" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value PropertyType="0" Value="csoport" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="StandardOperators" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Plusz" Key="{5335C4E9-62C7-44A5-BBF0-D1FB06224074}" ParallelWalk="True">
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="gomb" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Plusz" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TextBlock" Key="{F67D354E-8D50-41F7-8734-0D563FF242E3}" ParallelWalk="True">
+																<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value PropertyType="0" Value="XAML" Type="5" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="TextBlock" Type="5" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value PropertyType="0" Value="szöveg" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="TextBlock" Type="5" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value PropertyType="0" Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="Oszt_s" Key="{1E42F93A-CC63-42C5-AC86-824902DB2BDC}" ParallelWalk="True">
+														<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="gomb" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Osztás" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="DisplayControls" Key="{5C98BD13-B20A-4813-86B2-D07692A6A0D6}" ParallelWalk="True">
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value PropertyType="0" Value="XAML" Type="5" />
+													</Property>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="LandmarkTarget" Type="5" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value PropertyType="0" Value="csoport" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="DisplayControls" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Backspace" Key="{4CFB8502-124E-4DBD-AFF4-3076C144382A}" ParallelWalk="True">
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="gomb" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Backspace" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TextBlock" Key="{AAE2C0CB-DDAD-4831-9091-E092D0712DF9}" ParallelWalk="True">
+																<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value PropertyType="0" Value="XAML" Type="5" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="TextBlock" Type="5" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value PropertyType="0" Value="szöveg" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="TextBlock" Type="5" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value PropertyType="0" Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="T_rl_s" Key="{C50ED489-4399-450A-8860-F89000E1797D}" ParallelWalk="True">
+														<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="gomb" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Törlés" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Be_r_s_t_rl_se" Key="{207EA8D4-08BE-46B5-AB0C-E758F1A57203}" ParallelWalk="True">
+														<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value PropertyType="0" Value="XAML" Type="5" />
+															</Property>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="Button" Type="5" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value PropertyType="0" Value="gomb" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="Beírás_törlése" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="Inverz_f_ggv_ny" Key="{DADCF337-B49D-4631-92D7-E9CA45FD6E8F}" ParallelWalk="True">
+												<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value PropertyType="0" Value="XAML" Type="5" />
+													</Property>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="ToggleButton" Type="5" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value PropertyType="0" Value="gomb" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="Inverz_függvény" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Pi" Key="{1FC8CB66-8537-4E47-82F1-55672B0C0A3F}" ParallelWalk="True">
+												<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value PropertyType="0" Value="XAML" Type="5" />
+													</Property>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="Button" Type="5" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value PropertyType="0" Value="gomb" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="Pi" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Faktori_lis" Key="{8AD0B658-E280-427A-A7CD-EB3B8D0FA073}" ParallelWalk="True">
+												<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value PropertyType="0" Value="XAML" Type="5" />
+													</Property>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="Button" Type="5" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value PropertyType="0" Value="gomb" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="Faktoriális" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Plusz_m_nusz" Key="{2831E1F1-C2A7-461D-B891-D3C07E222892}" ParallelWalk="True">
+												<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value PropertyType="0" Value="XAML" Type="5" />
+													</Property>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="Button" Type="5" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value PropertyType="0" Value="gomb" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="Plusz_mínusz" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Bal_oldali_vagy_nyit_z_r_jelek_sz_ma_0" Key="{1984DD0F-A026-474A-B0FE-BC2F17109432}" ParallelWalk="True">
+												<TypeInfo Item0="{53F2278A-0D41-4133-B1AB-6EA1F945411B}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value PropertyType="0" Value="XAML" Type="5" />
+													</Property>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="Button" Type="5" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value PropertyType="0" Value="gomb" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="Bal_oldali_vagy_nyitó_zárójelek_száma_0" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -125,6 +693,51 @@
 					<Child Name="RadioButton_Rendszam" Owner="{05C4C1C8-03B5-485F-B425-BE21C22A5765}" />
 					<Child Name="RadioButton_VatNumber" Owner="{9A18419A-DA53-4A5F-A9BE-7319BEB099DB}" />
 					<Child Name="RadioButton_Folyoszamla" Owner="{DEDCB391-F4AE-46EE-82D9-93C83EF2DE65}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="ApplicationFrameHost" Owner="{CF114507-053B-4F8A-8CA8-0C1645B4A565}">
+			<Child Name="wndSz_mol_g_p" Owner="{B645F688-0810-44BB-B6C0-4AF69C9CD621}">
+				<Child Name="Sz_mol_g_p" Owner="{D5FF381A-5A13-430F-8EED-ED88D21718C6}">
+					<Child Name="NumberPad" Owner="{10C4B6B3-0446-4C20-9B0A-29DCF11E9ADF}">
+						<Child Name="Egy" Owner="{F7212CD6-536B-476B-85B4-972A8A03EA6A}" />
+						<Child Name="Kett_" Owner="{414B6284-DE15-4CE6-8ECE-75D9A2FF7840}">
+							<Child Name="TextBlock" Owner="{91B23EEE-7613-4043-B870-A589DBB4F766}" />
+						</Child>
+						<Child Name="H_rom" Owner="{C2826288-2104-4480-BC6D-F33AE7C33D75}">
+							<Child Name="TextBlock" Owner="{41BACEFD-4650-4ED7-A643-01EBE38D9180}" />
+						</Child>
+						<Child Name="N_gy" Owner="{B1C529A0-6831-48D7-8F68-42AD6E5BC0F9}">
+							<Child Name="TextBlock" Owner="{646C38AB-B2D3-4DCB-9419-EDF3FED0ECA6}" />
+						</Child>
+						<Child Name="t" Owner="{F865C5EF-64A3-48B4-A60D-3B7467639585}" />
+						<Child Name="Hat" Owner="{B0E50102-7D43-42DC-B212-8A54D7E9FCF7}" />
+						<Child Name="H_t" Owner="{FDFA9A26-060C-4A21-AD07-7755D8BA9020}">
+							<Child Name="TextBlock" Owner="{5E284836-4DCB-4E97-8ECF-8B8882D876E0}" />
+						</Child>
+						<Child Name="Nyolc" Owner="{C70803CF-D55B-4B09-A32C-1835F0B09F50}">
+							<Child Name="TextBlock" Owner="{2719AE9C-A459-45B0-9B55-BCE5F035F1AD}" />
+						</Child>
+						<Child Name="Kilenc" Owner="{47C35468-E794-4C12-995A-5DFFBE97A6A4}" />
+					</Child>
+					<Child Name="StandardOperators" Owner="{7C9E0F76-AECF-4D13-8257-205EA00166CC}">
+						<Child Name="Plusz" Owner="{5335C4E9-62C7-44A5-BBF0-D1FB06224074}">
+							<Child Name="TextBlock" Owner="{F67D354E-8D50-41F7-8734-0D563FF242E3}" />
+						</Child>
+						<Child Name="Oszt_s" Owner="{1E42F93A-CC63-42C5-AC86-824902DB2BDC}" />
+					</Child>
+					<Child Name="DisplayControls" Owner="{5C98BD13-B20A-4813-86B2-D07692A6A0D6}">
+						<Child Name="Backspace" Owner="{4CFB8502-124E-4DBD-AFF4-3076C144382A}">
+							<Child Name="TextBlock" Owner="{AAE2C0CB-DDAD-4831-9091-E092D0712DF9}" />
+						</Child>
+						<Child Name="T_rl_s" Owner="{C50ED489-4399-450A-8860-F89000E1797D}" />
+						<Child Name="Be_r_s_t_rl_se" Owner="{207EA8D4-08BE-46B5-AB0C-E758F1A57203}" />
+					</Child>
+					<Child Name="Inverz_f_ggv_ny" Owner="{DADCF337-B49D-4631-92D7-E9CA45FD6E8F}" />
+					<Child Name="Pi" Owner="{1FC8CB66-8537-4E47-82F1-55672B0C0A3F}" />
+					<Child Name="Faktori_lis" Owner="{8AD0B658-E280-427A-A7CD-EB3B8D0FA073}" />
+					<Child Name="Plusz_m_nusz" Owner="{2831E1F1-C2A7-461D-B891-D3C07E222892}" />
+					<Child Name="Bal_oldali_vagy_nyit_z_r_jelek_sz_ma_0" Owner="{1984DD0F-A026-474A-B0FE-BC2F17109432}" />
 				</Child>
 			</Child>
 		</Child>
@@ -190,6 +803,145 @@
 					</Child>
 					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
 						<ReturnValue Param0="11" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="-412176277" Key="{063F2CB9-5532-448F-B5EE-ED5C3A8B59AE}">
+			<Data Properties="91A2F20C5FDDF24E959DAEFD3A8DE28BUFFFFFFFFFFFFFFFFV4LAZZY">
+				<FunctionDescriptions>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Close" Doc="Closes the specified Window object." IsBasic="True" Param0="WaitTimeout" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="2000" Type="0" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Position" Doc="Sets the specified position and size for the specific Window object." IsBasic="True" Param0="Left" Param1="Top" Param2="Width" Param3="Height" Data="ZI4L1L4L4Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param3>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="-799264832" Key="{53F2278A-0D41-4133-B1AB-6EA1F945411B}">
+			<Data Properties="C40494C279BB4248BCC46A01148D146DUFFFFFFFFFFFFFFFFV4L7ZZY">
+				<FunctionDescriptions>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
 					</Child>
 				</FunctionDescriptions>
 			</Data>

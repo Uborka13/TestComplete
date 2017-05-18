@@ -16,6 +16,18 @@
 			<testData />
 			<data />
 		</child>
+		<child key="{AD5ABDAD-C866-4C64-9F72-CAE71B3F44BD}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+			<config nodeName="calc" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="calc.exe" filePath="C:\Windows\System32\" parameters="" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
 	</children>
 	<folders />
 </Root>
