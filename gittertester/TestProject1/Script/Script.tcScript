@@ -7,6 +7,9 @@
 		<child name="Faszzt" key="{359AF288-B504-4350-9D77-8B172FCC2261}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Faszzt.py" />
 		</child>
+		<child name="sanyiii" key="{8326EB22-9436-48FE-9D17-213E3626380B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="sanyiii.py" />
+		</child>
 	</children>
 	<folders />
 </Root>

@@ -25,7 +25,7 @@
 				<Node name="{8ee82d46-af98-4371-988c-39e367c94873}"/>
 			</Node>
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{2ABCEBFC-F015-4F39-A9E6-B3CC6919FD4D}"/>
+				<Prp name="activity" type="S" value="{C92D18A2-59A3-4B93-A91A-36043C7D1839}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
@@ -38,7 +38,11 @@
 			<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
 				<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}"/>
 			</Node>
-			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}"/>
+			<Node name="{d0151f8e-51fe-49da-8534-008b9f1b7c45}">
+				<Node name="{00000000-0000-0000-0000-000000000000}">
+					<Node name="{08b6e89f-c1fa-4bf1-8edd-fc2384991c27}"/>
+				</Node>
+			</Node>
 			<Node name="{d02cce92-fd05-4f42-a803-fe08e8104e33}">
 				<Node name="hosts">
 					<Prp name="browser.sortorder" type="I" value="0"/>
@@ -56,9 +60,9 @@
 				<Node name="gittertester">
 					<Node name="testproject1">
 						<Node name="advanced">
-							<Node name="events"/>
 							<Node name="script"/>
 						</Node>
+						<Node name="testedapps"/>
 					</Node>
 				</Node>
 			</Node>
