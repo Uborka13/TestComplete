@@ -110,6 +110,15 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="Group3" key="{3108DE25-E007-442D-B615-AB9983405CDC}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+				<testParameters />
+				<children>
+					<testItem name="ProjectTestItem1" key="{76D24494-5FB6-4B50-8946-6C061607128F}" group="False" enabled="True" testMoniker="{8326EB22-9436-48FE-9D17-213E3626380B}Test1" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{2CB6954B-1381-4278-9EFF-1882B7650FD0}">
