@@ -4,6 +4,9 @@
 		<child name="Unit1_v2" key="{08B6E89F-C1FA-4BF1-8EDD-FC2384991C27}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Unit1_v2.py" />
 		</child>
+		<child name="Faszzt" key="{359AF288-B504-4350-9D77-8B172FCC2261}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Faszzt.py" />
+		</child>
 	</children>
 	<folders />
 </Root>

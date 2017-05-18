@@ -47,6 +47,70 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="Group2" key="{ED657289-D9BA-427F-AD29-FB488D0B8863}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+				<testParameters />
+				<children>
+					<testItem name="ProjectTestItem3" key="{DBE36FB5-D503-4A02-BF38-A95DF6FD9287}" group="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+						<testParameters />
+						<children>
+							<testItem name="ProjectTestItem4" key="{98047DB9-268B-4489-BAF6-92D7FF755F5B}" group="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+								<testParameters />
+								<children>
+									<testItem name="ProjectTestItem5" key="{D9A72D62-7A98-4A42-AF2F-170D55A019CA}" group="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+										<testParameters />
+										<children>
+											<testItem name="ProjectTestItem6" key="{97221586-198F-4598-A92A-B48812790C13}" group="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+												<testParameters />
+												<children>
+													<testItem name="ProjectTestItem7" key="{FB77D610-4EB2-4E30-9DC5-F3263A819493}" group="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+														<testParameters />
+														<children>
+															<testItem name="ProjectTestItem8" key="{42133C9D-7DCB-45F0-945F-ECE341A9E112}" group="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+																<testParameters />
+																<children>
+																	<testItem name="ProjectTestItem9" key="{459D4A43-3239-44B6-BB03-607A59C6FE6E}" group="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+																		<testParameters />
+																		<children>
+																			<testItem name="ProjectTestItem10" key="{0D808804-774C-404E-8133-7E600B57F923}" group="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+																				<testParameters />
+																				<children>
+																					<testItem name="ProjectTestItem11" key="{4B74CD0B-6D68-4B9D-9754-58BD89A633C8}" group="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+																						<testParameters />
+																						<children>
+																							<testItem name="ProjectTestItem12" key="{C96251D4-54EC-4EE7-9738-1B93255BADAB}" group="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+																								<testParameters />
+																								<children>
+																									<testItem name="ProjectTestItem13" key="{FE538689-DB90-43B4-8E38-8EE9598E81E4}" group="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+																										<testParameters />
+																										<children>
+																											<testItem name="ProjectTestItem14" key="{EB3EE209-D4BE-452D-A332-B31DB7F34CD1}" group="False" enabled="True" testMoniker="{359AF288-B504-4350-9D77-8B172FCC2261}valami" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+																												<testParameters />
+																												<children />
+																											</testItem>
+																										</children>
+																									</testItem>
+																								</children>
+																							</testItem>
+																						</children>
+																					</testItem>
+																				</children>
+																			</testItem>
+																		</children>
+																	</testItem>
+																</children>
+															</testItem>
+														</children>
+													</testItem>
+												</children>
+											</testItem>
+										</children>
+									</testItem>
+								</children>
+							</testItem>
+						</children>
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{2CB6954B-1381-4278-9EFF-1882B7650FD0}">
