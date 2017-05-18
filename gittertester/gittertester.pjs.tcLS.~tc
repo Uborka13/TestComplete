@@ -27,10 +27,21 @@
 				<Prp name="relpath" type="S" value="TestProject1\TestProject1.mds.tcLS"/>
 			</Node>
 			<Node name="logs">
-				<Prp name="key" type="S" value="{B8F282B4-CB43-4453-BA97-1A5BF58AB380}"/>
+				<Prp name="key" type="S" value="{2D009E54-485F-4CDB-AB3A-A1A741844753}"/>
 				<Prp name="relpath" type="S" value="Log"/>
 			</Node>
-			<Node name="variables"/>
+			<Node name="variables">
+				<Node name="datav3">
+					<Node name="var0">
+<<<<<<< HEAD
+						<Prp name="name" type="S" value="alma"/>
+=======
+						<Prp name="name" type="S" value="Kacske"/>
+>>>>>>> f447cf4f36cf077362d0448dd820126564215893
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="3"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
 	</Node>

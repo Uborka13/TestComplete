@@ -28,9 +28,23 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{FAA0ADAF-C9E6-44C4-9A2D-558CC4DD2CF7}">
 		<children>
-			<testItem name="yololoo" key="{182634ED-26DB-48EF-BF80-EF12CC5F90C9}" group="False" enabled="True" testMoniker="{08B6E89F-C1FA-4BF1-8EDD-FC2384991C27}Func" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+			<testItem name="Group1" key="{05BBD17C-8A60-4881-9BB4-C78C2C318F37}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 				<testParameters />
-				<children />
+				<children>
+					<testItem name="jjjjmj65erudtuzgizfiuzf" key="{182634ED-26DB-48EF-BF80-EF12CC5F90C9}" group="False" enabled="True" testMoniker="{08B6E89F-C1FA-4BF1-8EDD-FC2384991C27}Test1" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+						<testParameters />
+						<children>
+							<testItem name="telllelele" key="{ECD0C190-3350-46BA-9E71-85328C440AFC}" group="False" enabled="True" testMoniker="{08B6E89F-C1FA-4BF1-8EDD-FC2384991C27}lolooo" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+								<testParameters />
+								<children />
+							</testItem>
+						</children>
+					</testItem>
+					<testItem name="valami van a levegőben" key="{B125E1B1-F9E1-4CE8-938D-47D961527661}" group="False" enabled="True" testMoniker="{08B6E89F-C1FA-4BF1-8EDD-FC2384991C27}valami_function" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
 			</testItem>
 		</children>
 	</testItems>
