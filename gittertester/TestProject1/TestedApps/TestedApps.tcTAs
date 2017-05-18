@@ -4,25 +4,13 @@
 	<testData />
 	<data />
 	<children>
-		<child key="{C92D18A2-59A3-4B93-A91A-36043C7D1839}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
-			<config nodeName="EKAER_uszi" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
-				<runModeParams activeRunMode="Simple">
-					<param name="RunAs" parameters="-noupdate" workFolder="" userName="" password="" domain="" />
-					<param name="Profile" parameters="-noupdate" workFolder="" />
-					<param name="Debug" parameters="-noupdate" workFolder="" />
-					<param name="Simple" fileName="EKAER_uszi.exe" filePath="C:\Users\david.urban\Documents\EKÁER\1.10 Comm\" parameters="-noupdate" workFolder="" />
-				</runModeParams>
-			</config>
-			<testData />
-			<data />
-		</child>
-		<child key="{6828E2E7-746C-4585-97FB-AE2D1E5B41A7}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
-			<config nodeName="python" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+		<child key="{DF58F6A2-F338-4BA0-9025-27B87B235D4C}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
+			<config nodeName="calc" autorunOnRecording="True" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
 				<runModeParams activeRunMode="Simple">
 					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
 					<param name="Profile" parameters="" workFolder="" />
 					<param name="Debug" parameters="" workFolder="" />
-					<param name="Simple" fileName="python.exe" filePath="C:\Python27\" parameters="" workFolder="" />
+					<param name="Simple" fileName="calc.exe" filePath="C:\Windows\System32\" parameters="" workFolder="" />
 				</runModeParams>
 			</config>
 			<testData />
