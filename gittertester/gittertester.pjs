@@ -14,7 +14,7 @@
 	<variables key="{39FE1695-F169-4B17-A016-F4095B732E78}">
 		<data Version="3">
 			<Items>
-				<Variable Name="Var1" Type="{D25FDC80-E78F-4209-88B6-6FE2B0771206}" Local="False" Descr="Maybe">
+				<Variable Name="Kacske" Type="{D25FDC80-E78F-4209-88B6-6FE2B0771206}" Local="False" Descr="Maybe">
 					<DefValue BoolValue="True" />
 				</Variable>
 			</Items>
